@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="450.0" y="30" text-anchor="middle" font-size="18" font-family="sans-serif">Grokking Accuracy</text>
+<text x="450.0" y="470" text-anchor="middle" font-size="12" font-family="sans-serif">epoch</text>
+<text x="15" y="240.0" text-anchor="middle" font-size="12" font-family="sans-serif" transform="rotate(-90 15,240.0)">accuracy</text>
+<rect x="60" y="60" width="780" height="360" fill="none" stroke="#333" stroke-width="1"/>
+<path d="M60.00,420.00 L255.00,60.00 L450.00,60.00 L645.00,60.00 L840.00,60.00" fill="none" stroke="#1f77b4" stroke-width="2"/>
+<text x="70" y="78" font-size="12" font-family="sans-serif" fill="#1f77b4">train_acc</text>
+<path d="M60.00,409.41 L255.00,409.41 L450.00,409.41 L645.00,409.41 L840.00,409.41" fill="none" stroke="#d62728" stroke-width="2"/>
+<text x="70" y="96" font-size="12" font-family="sans-serif" fill="#d62728">test_acc</text>
+</svg>

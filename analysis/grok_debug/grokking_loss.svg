@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="450.0" y="30" text-anchor="middle" font-size="18" font-family="sans-serif">Grokking Loss</text>
+<text x="450.0" y="470" text-anchor="middle" font-size="12" font-family="sans-serif">epoch</text>
+<text x="15" y="240.0" text-anchor="middle" font-size="12" font-family="sans-serif" transform="rotate(-90 15,240.0)">loss</text>
+<rect x="60" y="60" width="780" height="360" fill="none" stroke="#333" stroke-width="1"/>
+<path d="M60.00,189.13 L255.00,240.15 L450.00,293.88 L645.00,353.01 L840.00,420.00" fill="none" stroke="#1f77b4" stroke-width="2"/>
+<text x="70" y="78" font-size="12" font-family="sans-serif" fill="#1f77b4">train_loss</text>
+<path d="M60.00,173.45 L255.00,150.31 L450.00,124.51 L645.00,94.85 L840.00,60.00" fill="none" stroke="#d62728" stroke-width="2"/>
+<text x="70" y="96" font-size="12" font-family="sans-serif" fill="#d62728">test_loss</text>
+</svg>
