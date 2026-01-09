@@ -1,7 +1,7 @@
 name:                torchlite
 version:             0.1.0.0
 license:             BSD3
-author:              simpleNeural contributors
+author:              TorchLite contributors
 build-type:          Simple
 cabal-version:       >=1.10
 

@@ -363,7 +363,10 @@ crossEntropy logits target = do
   softHost <- copyD2H soft (rRows logits * rCols logits)
   targetHost <- copyD2H (rValue target) (rRows target * rCols target)
   let batch = max 1 (rCols logits)
-  let loss = -sum (zipWith (\t s -> t * log s) (VS.toList targetHost) (VS.toList softHost)) / fromIntegral batch
+  let eps = 1.0e-12
+  let loss =
+        -sum (zipWith (\t s -> t * log (max eps s)) (VS.toList targetHost) (VS.toList softHost)) /
+        fromIntegral batch
   out <- allocDevice 1
   copyH2D out (VS.fromList [loss])
   mkTensor 1 1 out [logits, target] $ \_ -> do
